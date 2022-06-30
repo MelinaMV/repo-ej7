@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+}
+header{
+    padding: 60px;
+    font-size: 40px;
+    justify-content: center;
+    text-align: center;
+    border-radius: 5px;
+}
+h1{
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 5px;
+    color: rgb(255, 255, 255);
+    text-shadow: 4px 4px 4px rgb(11, 11, 11),
+    4px 4px 4px rgb(22, 21, 21);
+    animation-duration: 2s;
+    animation-name: slidein;
+    background-image: linear-gradient( 69.3deg,  rgba(240,8,8,1) 6.6%, rgba(255,146,8,1) 100.2% );
+    border-radius: 50%;
+}
+body{
+    background-image: url(../img/v882-aew-52-g.jpg);
+    width: 100%;
+}
+article img{
+    width: 70vw;
+    padding: 20px;
+    border-radius: 30px;
+}
+article{
+    margin: 70px auto;
+    padding: 20px;
+    background: linear-gradient(to bottom, #145c09, #68047f);
+    border-radius: 70px;
+    animation-duration: 6s;
+    animation-name: slidein;
+}
+section{
+    margin: 10px;
+    padding: 20px;
+}
+h2{
+    letter-spacing: 5px;
+    text-align: center;
+    color: aliceblue;
+    font-family: Impact, 'Arial Narrow', sans-serif;
+    font-size: 50px;
+    font-weight: lighter;
+    animation-duration: 4s;
+    animation-name: slidein;
+}
+h3::before{
+    content: " ~ ";
+    color: red;
+}
+h3::after{
+    content: " ~ ";
+    color: red;
+}
+h3{
+    letter-spacing: 2px;
+    text-shadow: 3px 3px 3px rgb(11, 11, 11),
+    3px 3px 3px rgb(22, 21, 21);
+    padding: 20px;
+    text-align: center;
+    font-family: Impact, 'Arial Narrow', sans-serif;
+    font-size: 40px;
+    font-weight: lighter;
+    color: #f12711;
+}
+p{
+    font-size: 20px;
+    font-family: Georgia, Times, 'Times New Roman', sans-serif;
+    color: white;
+    margin: 50px auto;
+}
+
+a{
+    background-color: rgba(40, 174, 10, 0.667);
+    font-size: 40px;
+    border-radius: 10px;
+    margin: 30px;
+    padding: 10px;
+    font-family: Impact, 'Arial Narrow', sans-serif;
+    font-style: oblique;
+    box-shadow: 5px 5px 5px black;
+    align-items: center;
+}
+footer{
+    font-size: 30px;
+    background-color: #f5af19a6;
+    width: fit-content;
+    height: 35px;
+
+}
